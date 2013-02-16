@@ -5,5 +5,10 @@ CREATE OR REPLACE bc_packageName_pkg
  * @headcomm
  */
 AS
-
+    /**
+     * Javadoc
+     *
+     * @param inInput
+     */
+    PROCEDURE Test(inInput NUMBER);
 END;
